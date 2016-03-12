@@ -30,7 +30,7 @@ RUN             apt-get   -y    clean                                           
        &&       rm        -rf   /var/cache/*
 
 # Exposing the Ports
-EXPOSE          12201
+#EXPOSE          12201
 
 # Mounting the Volumes
 VOLUME          ["/etc/graylog"]
